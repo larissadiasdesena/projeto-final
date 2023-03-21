@@ -1,0 +1,156 @@
+:root {
+    --cor-pri: #0089ED;
+    --cor-seg: #666666;
+    --cor-ter: #ffffff;
+    --cor-qur: #cccccc;
+    --cor-qui: #000000;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: #f7f7f7;
+    
+
+    
+}
+.nav-logo {
+    width: 6%;
+    height: 100%;
+    
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 130%;
+    
+}
+.menu ul li, a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.selecionado{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgba(175, 175, 172, 0.782);
+}
+
+a:hover {
+    color: var(--cor-seg);
+    text-shadow: 0.1em 0.1em 0.2em var(--cor-seg);
+}
+
+
+
+  body{
+ 
+    display: block;
+    background: #0089ED;
+    background-size: 10%;
+    
+    
+  }
+  main{
+   
+    width: auto;
+    
+  }
+
+  .form{
+    text-align: center;
+    background-color: rgb(248, 247, 251);
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border-radius: 8%;
+    margin-top: 2%;
+    padding-bottom: 3%;
+  padding-top: 2%;
+
+  }
+
+  h1{
+    padding-top: 3%;
+  }
+  .logo-login {
+    width: 25%;
+    height: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  input{
+    width: 300px;
+    padding: 10px;
+    margin: 1.5%;
+    height: 3%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.468);
+    border-radius: 5px;
+  }
+  input::placeholder{
+    font-size: large ;
+    padding-left: 6%;
+  }
+  
+  .btn-login{
+    width: 50%;
+    height: 18%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0089ED;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    border-style: none;
+    margin-bottom: 5%;
+  }
+
+  .google{
+    width: 38%;
+    height: 15%;
+    background-image: url(img/google.png);
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position-x: 3%;
+    border-radius: 5%;
+    border-color:#ccd9ef ;
+    background-color: #E9F1FF;
+    padding-left: 1.8%;
+    margin-top: 1.5%;
+
+
+    
+    
+  }
+
+.facebook{
+    width: 15%;
+    border-radius: 50%;
+    border-style: none;
+    background: #ffffff;
+
+
+}
+
+.facebook > img {
+    width: 60%;
+}
+
+.icon_login{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    position: relative;
+    padding-bottom:4% ;
+}
+
